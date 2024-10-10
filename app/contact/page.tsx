@@ -23,7 +23,7 @@ function page() {
             className="block rounded bg-[#4a90e2] px-8 py-3 text-sm lg:text-base font-medium text-white shadow hover:bg-[#3b7cc4] focus:outline-none focus:ring active:bg-[#356bb1] sm:w-auto"
             href="#"
           >
-            Get Started
+            Contact Us Now
           </a>
 
           <a
