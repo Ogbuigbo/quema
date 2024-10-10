@@ -12,8 +12,9 @@ function About() {
             About Us
           </h1>
           <h2 className='text-xl font-medium text-gray-700'>
-            Business planning, Strategy and Execution. A problem-solving philosophy that leads to products people actually want to use.
-          </h2>
+  HR strategy, workforce planning, and execution. A problem-solving approach that delivers solutions employees and businesses truly benefit from.
+</h2>
+
           <p className='text-base text-gray-600 leading-relaxed'>
           Quema Consulting is an organizational development and HR business advisory firm that provides organizational solution for companies and institutions to ensure that their corporate concern are thriving through strategic planning. 
           </p>

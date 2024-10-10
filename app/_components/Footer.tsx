@@ -51,13 +51,7 @@ function Footer() {
 							<span></span>{" "}
 						</h1>
 						<p className="mt-2 text-justify text-[#999]  text-[12px] xl:text-[16px] xl:min-w-[471px]  font-medium lg:min-w-[390px] w-full">
-							Tim Hockri Nigeria Limited is a renowned procurement
-							company, that specializes in sourcing goods and
-							services for clients around the world. With a focus
-							on efficiency and reliability, the company aims to
-							streamline procurement processes, negotiate
-							favorable terms with suppliers, and ensure timely
-							delivery of quality products.
+						Quema Consulting is an organizational development and HR business advisory firm that provides organizational solution for companies and institutions to ensure that their corporate concern are thriving through strategic planning. 
 						</p>
 					</div>
 
@@ -109,9 +103,9 @@ function Footer() {
 								<p className="transition hover:opacity-75 flex items-center gap-4">
 									<Location />
 									<span>
-										No.35 Ndele Street, Bishop House{" "}
+										PLOT 268, Trans Amadi Industrial Layout Rd{" "}
 										<span className="block">
-											D/Line, Port Harcourt, <br /> Rivers
+											ordinance, Port Harcourt, 500211 <br /> Rivers
 											State.
 										</span>
 									</span>
@@ -124,7 +118,7 @@ function Footer() {
 
 								<p className="transition hover:opacity-75 flex items-center gap-4">
 									<Email />
-									<span>info@timhockri.com</span>
+									<span>quemaconsulting@gmail.com</span>
 								</p>
 							</div>
 						</ul>

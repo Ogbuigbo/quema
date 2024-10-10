@@ -38,7 +38,7 @@ function Form() {
 					className="space-y-6"
 					ref={ref}
 				>
-					<div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">
+					<div className="grid lg:grid-cols-2 xl:grid-cols-3 sm:grid-cols-1 gap-8">
 						<div className="flex flex-col">
 							<label htmlFor="name" className="text-gray-700 font-semibold mb-2">Name <span className="text-red-600">*</span></label>
 							<input

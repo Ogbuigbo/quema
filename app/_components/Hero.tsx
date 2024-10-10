@@ -1,6 +1,16 @@
+'use client'
+
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 
 function Hero() {
+  const lineRef = useRef(null);
+
+  useEffect(() => {
+    const line = lineRef.current;
+    line.style.width = "100%";
+  }, []);
+
   return (
     <section className="relative bg-[#f2f4f6]">
       <div
@@ -17,11 +27,17 @@ function Hero() {
 
       <div className="relative mx-auto max-w-screen-xl px-4 md:py-32 py-20 lg:flex lg:items-center z-3 md:pb-[200px]">
         <div className="mx-auto max-w-xl text-center">
-          <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
+          <h1 className="text-3xl font-extrabold sm:text-5xl text-white relative">
             Elevate Your Workforce.
             <strong className="font-extrabold text-[#4a90e2] sm:block">
               Drive Business Results.
             </strong>
+            {/* Snake Line animation */}
+            <div
+              ref={lineRef}
+              className="snake-line bg-[#4a90e2] h-[4px] w-0 mt-2 mx-auto"
+              style={{ transition: "width 2s ease-in-out" }}
+            ></div>
           </h1>
 
           <p className="mt-4 sm:text-xl/relaxed text-white">

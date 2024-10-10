@@ -38,7 +38,7 @@ function TopSection() {
           <div className='flex flex-col gap-6'>
             <h1 className='text-3xl lg:text-4xl font-semibold text-gray-900'>Recruitment & Selection Process</h1>
             <p className='w-full xl:w-[550px] text-gray-700 text-justify'>
-            Quema Consulting is committed to employing the best qualified candidates while engaging in recruitment and selection practices that comply with all applicable employment laws. It is the policy of Mipruno Consulting to provide equal employment opportunity to all applicants and employees.
+            Quema Consulting is committed to employing the best qualified candidates while engaging in recruitment and selection practices that comply with all applicable employment laws. It is the policy of Quema Consulting to provide equal employment opportunity to all applicants and employees.
             </p>
             <button className="bg-[#4a90e2] text-white py-[14px] px-[30px] rounded-lg font-medium hover:bg-[#3b7cc4] transition-all duration-300 ease-in-out self-start xl:self-end">
               Read More

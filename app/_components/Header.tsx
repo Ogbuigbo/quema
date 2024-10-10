@@ -43,11 +43,11 @@ function Header() {
       {/* Logo */}
       <Link href="/" className="flex items-center">
         <Image
-          src="https://tinypic.host/images/2024/10/09/quema-4.png"
-          width={120}
-          height={120}
+          src="https://tinypic.host/images/2024/10/10/logo_primary_iINHMOrK.png"
+          width={150}
+          height={150}
           alt="logo"
-          className="rounded-full w-[100px] h-[100px]"
+          className="object-cover"
         />
       </Link>
 

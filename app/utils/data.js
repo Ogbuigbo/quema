@@ -24,7 +24,7 @@ export const ITEMS = [
   {
     icons: <Images className='text-blue-500' />,
     title: 'Recruitment & Selection Process',
-    description: 'It is the policy of Mipruno Consulting to provide equal employment opportunity to all applicants and employees.',
+    description: 'Quema Consulting is committed to employing the best qualified candidates while engaging in recruitment and selection practices that comply with all applicable employment laws. .',
   },
   {
     icons: <Factory className='text-blue-500' />,
@@ -33,8 +33,8 @@ export const ITEMS = [
   },
   {
     icons: <Lightbulb className='text-blue-500' />,
-    title: 'Bussiness Growth',
-    description: 'Lorem ipsum dolor sit amet sed consectetur adipisicing elit. doloret quas saepe autem, dolor set.',
+    title: 'Business Growth',
+    description: 'Empowering your organization with strategic HR solutions that drive growth, enhance employee performance, and optimize business outcomes.',    
   },
   {
     icons:  <DollarSign  className='text-blue-500' />,
