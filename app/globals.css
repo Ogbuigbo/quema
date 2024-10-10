@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .overview-container {
+  position: relative; 
+  background-image: url('https://tinypic.host/images/2024/10/09/banner1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;   
+}
+
+.overview-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(227, 84, 84, 0.5); 
+  z-index: 1; 
+} */
+
+
+
+
+
