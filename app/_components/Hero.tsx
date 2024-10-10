@@ -1,14 +1,17 @@
-'use client'
+'use client';
 
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 
 function Hero() {
-  const lineRef = useRef(null);
+  // Explicitly type the ref
+  const lineRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const line = lineRef.current;
-    line.style.width = "100%";
+    if (line) { // Check if line is not null
+      line.style.width = "100%"; // Set the width of the line
+    }
   }, []);
 
   return (
